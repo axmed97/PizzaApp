@@ -1,0 +1,36 @@
+#pizza {
+    display: flex;
+    .pizza-side {
+        width: 80%;
+        height: 100vh;
+        background-color: cadetblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 450px; // 300, 450, 600
+            transition: .5s linear;
+        }
+    }
+    .pizza-controls {
+        width: 20%;
+        height: 100vh;
+        background-color: pink;
+        .pizza-ingredients {
+            .pizzaSlider {
+                display: none;
+            }
+            .pizzaSlider.active {
+                display: block;
+            }
+            .pizza-ingre-items {
+
+                .pizza-item {
+                    img {
+                        width: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

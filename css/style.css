@@ -1,0 +1,29 @@
+#pizza {
+  display: flex;
+}
+#pizza .pizza-side {
+  width: 80%;
+  height: 100vh;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pizza .pizza-side img {
+  width: 450px;
+  transition: 0.5s linear;
+}
+#pizza .pizza-controls {
+  width: 20%;
+  height: 100vh;
+  background-color: pink;
+}
+#pizza .pizza-controls .pizza-ingredients .pizzaSlider {
+  display: none;
+}
+#pizza .pizza-controls .pizza-ingredients .pizzaSlider.active {
+  display: block;
+}
+#pizza .pizza-controls .pizza-ingredients .pizza-ingre-items .pizza-item img {
+  width: 50px;
+}/*# sourceMappingURL=style.css.map */
